@@ -81,7 +81,7 @@ section > .container > .row > [class^="col-"] {
 .banner-section > .banner {
   /* debug */
 
-  width: 500px;
+  width: 60%;
   background-color: blueviolet;
 }
 
