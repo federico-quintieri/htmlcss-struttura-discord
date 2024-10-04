@@ -54,29 +54,121 @@ header {
   border: 1px solid black;
 }
 
-/* Creazione sezioni main*/
+/* Stili classi principali sezioni*/
 
 main > .container {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-section{
-    padding-top: 25px;
-    padding-bottom: 25px;
+section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+section > .container,
+section > .container > .row > [class^="col-"] {
+  min-height: 270px;
 }
 
 /* Banner section */
-.banner-section{
-    background-color: blue;
+.banner-section {
+  /* debug */
+  background-color: blue;
 }
 
 .banner-section > .banner {
-    /* debug */
-  min-height: 270px;
+  /* debug */
+
   width: 500px;
   background-color: blueviolet;
 }
 
 /* Section 1 */
-.sec-1 > 
+
+.sec-1 > .container > .row {
+  display: flex;
+  justify-content: space-between;
+}
+.sec-1 > .container > .row > .col-1 {
+  width: 60%;
+  /* debug */
+  background-color: brown;
+}
+.sec-1 > .container > .row > .col-2 {
+  width: 40%;
+  background-color: burlywood;
+}
+
+/* Section 2 */
+.sec-2 > .container > .row {
+  display: flex;
+  justify-content: space-between;
+}
+.sec-2 > .container > .row > .col-1 {
+  width: 40%;
+  /* debug */
+  background-color: burlywood;
+}
+.sec-2 > .container > .row > .col-2 {
+  width: 60%;
+  background-color: brown;
+}
+
+/* Section 3 */
+.sec-3 > .container > .row {
+  display: flex;
+  justify-content: space-between;
+}
+.sec-3 > .container > .row > .col-1 {
+  width: 60%;
+  /* debug */
+  background-color: brown;
+}
+.sec-3 > .container > .row > .col-2 {
+  width: 40%;
+  background-color: burlywood;
+}
+
+/* Section 4 */
+.sec-4 > .container > .row {
+  display: flex;
+  justify-content: space-between;
+  background-color: chartreuse;
+  min-height: 450px;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  height: 400px;
+}
+
+/* Section 5 */
+.sec-5 > .container > .row {
+  display: flex;
+  justify-content: space-between;
+}
+.sec-5 > .container > .row > .col-1 {
+  width: 40%;
+  /* debug */
+  background-color: rosybrown;
+}
+.sec-5 > .container > .row > .col-2 {
+  width: 15%;
+  background-color: aqua;
+}
+.sec-5 > .container > .row > .col-3 {
+  width: 15%;
+  background-color: aqua;
+}
+.sec-5 > .container > .row > .col-4 {
+  width: 15%;
+  background-color: aqua;
+}
+.sec-5 > .container > .row > .col-5 {
+  width: 15%;
+  background-color: aqua;
+}
+/* Section 6 */
