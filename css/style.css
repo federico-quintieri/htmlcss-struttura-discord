@@ -172,3 +172,25 @@ footer {
   background-color: aqua;
 }
 /* Section 6 */
+footer > .sec-6 {
+  border: 1px solid gray;
+  height: 20%;
+}
+.sec-6 > .container {
+  min-height: 40px;
+}
+.sec-6 > .container > .row {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(142, 146, 122);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.sec-6 > .container > .row > span {
+  padding: 5px;
+  background-color: rgb(173, 201, 18);
+}
+.sec-6 > .container > .row > button {
+  padding: 5px;
+  background-color: rgb(173, 201, 18);
+}
